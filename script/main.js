@@ -110,7 +110,7 @@ const animationTimeline = () => {
       {
         backgroundColor: "rgb(127, 206, 248)",
       },
-      "+=4"
+      "+=1"
     )
     .to(
       ".four",
@@ -122,8 +122,8 @@ const animationTimeline = () => {
       },
       "+=1"
     )
-    .from(".idea-1", 0.7, ideaTextTrans)
-    .to(".idea-1", 0.7, ideaTextTransLeave, "+=2.5")
+    //.from(".idea-1", 0.7, ideaTextTrans)
+    //.to(".idea-1", 0.7, ideaTextTransLeave, "+=2.5")
     .from(".idea-2", 0.7, ideaTextTrans)
     .to(".idea-2", 0.7, ideaTextTransLeave, "+=2.5")
     .from(".idea-3", 0.7, ideaTextTrans)
@@ -134,8 +134,8 @@ const animationTimeline = () => {
       color: "#fff",
     })
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=2.5")
-    .from(".idea-4", 0.7, ideaTextTrans)
-    .to(".idea-4", 0.7, ideaTextTransLeave, "+=2.5")
+    //.from(".idea-4", 0.7, ideaTextTrans)
+    //.to(".idea-4", 0.7, ideaTextTransLeave, "+=2.5")
     .from(
       ".idea-5",
       0.7,
@@ -188,7 +188,7 @@ const animationTimeline = () => {
         ease: Expo.easeOut,
       },
       0.2,
-      "+=1.5"
+      "+=1"
     )
     .staggerFromTo(
       ".baloons img",
@@ -267,8 +267,8 @@ const animationTimeline = () => {
         visibility: "visible",
         opacity: 0,
         scale: 80,
-        repeat: 3,
-        repeatDelay: 1.4,
+        //repeat: 1,
+        //repeatDelay: 1,
       },
       0.3
     )
